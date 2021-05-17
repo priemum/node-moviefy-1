@@ -1,0 +1,53 @@
+<div class="col-md-6">
+  <div class="my-form-item page-header-color">
+    <label>Title</label>
+    <input type="text"  name="title" value="<%= movie.title %>">
+  </div>
+</div>
+<div class="col-md-6">
+  <div class="my-form-item page-header-color">
+    <label>Director</label>
+    <select name="director">
+      <% directors.forEach(director => { %>
+      <% if (director.id === movie.director) { %>
+      <option selected label="<%= director.name %>" value="<%= director.id %>">
+        <% }else { %>
+      <option selected label="<%= director.name %>" value="<%= director.id %>">
+        <% } %>
+        <% }) %>
+    </select>
+  </div>
+</div>
+
+<div class="col-12 col-sm-8">
+  <div class="my-form-row">
+    <div class="my-form-item page-header-color">
+      <label>Release Date</label>
+      <input type="date" name="releaseDate" value="<%= movie.releaseDate == null ? "" :
+        movie.releaseDate.toISOString().split("T")[0] %>">
+    </div>
+  </div>
+</div>
+<div class="col-12 col-sm-4">
+  <div class="my-form-item page-header-color">
+    <label>Rating</label>
+    <input type="number" min="1" max="10" name="ratingIMDb" value="<%= movie.rating %>">
+  </div>
+</div>
+
+
+<div class="col-lg-12">
+  <div class="my-form-row">
+    <div class="my-form-item my-form-item-no-grow page-header-color">
+      <label>Cover</label>
+      <input type="file" name="cover" class="movie-cover filepond">
+    </div>
+</div>
+</div>
+
+<div class="col-lg-12">
+    <div class="my-form-item page-header-color">
+      <label class="opis">Description</label>
+      <textarea name="description"><%= movie.description %></textarea>
+    </div>
+</div>

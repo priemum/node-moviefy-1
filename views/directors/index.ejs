@@ -1,0 +1,26 @@
+<h2 class="page-header-color">Search Directors</h2>
+<form action="/directors" method="GET">
+  <div class="my-form-row">
+    <div class="my-form-item">
+      <label class="page-header-color">Name</label>
+      <input type="text" name="name" value="<%= searchOptions.name%>">
+    </div>
+  </div>
+  <div class="my-form-row my-form-row-end">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </div>
+</form>
+<br>
+<% directors.forEach(director => { %>
+  <div class="container">
+
+<div class="director-row row">
+  <div class="director-name page-header-color col-lg-6 col-sm-12"><%=director.name%></div>
+  <div class="my-btn-row">
+    <a class="btn btn-outline-primary col-lg-4 col-md-3" href="/directors/<%= director.id %>">View</a>
+    <a class="btn btn-outline-primary col-lg-4 col-md-3" href="/directors/<%= director.id %>/edit">Edit</a>
+    <%- include("../partials/deleteForm",{ url: `/directors/${director.id}`}) %>
+    </div>
+  </div>
+  </div>
+<% }) %>

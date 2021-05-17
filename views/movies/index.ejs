@@ -1,0 +1,31 @@
+<h2 class="page-header-color">Search Movies</h2>
+<form class="row g-3" action="/movies" method="GET">
+
+<div class="col-md-12">
+  <div class="my-form-row">
+  <div class="my-form-item page-header-color">
+      <label>Title</label>
+      <input type="text" name="title" value="<%= searchOptions.title %>">
+    </div>
+  </div>
+</div>
+<div class="col-md-6">
+  <div class="my-form-item page-header-color">
+    <label>Released After</label>
+    <input type="date" name="releasedAfter" value="<%= searchOptions.releasedAfter %>">
+  </div>
+</div>
+
+<div class="col-md-6">
+  <div class="my-form-item page-header-color">
+    <label>Released Before</label>
+    <input type="date" name="releasedBefore" value="<%= searchOptions.releasedBefore %>">
+  </div>
+</div>
+
+<div class="my-btn-row my-form-row-end">
+  <button class="my-button btn btn-outline-primary"type="submit">Search</button>
+</div>
+
+</form>
+<%- include('../partials/movieGrid', { movies: movies, large:true }) %>

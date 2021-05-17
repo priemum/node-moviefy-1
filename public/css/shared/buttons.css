@@ -1,0 +1,63 @@
+:root{
+  --color-btn-primary-text: hsl(190,100%,20%);
+  --color-btn-primary-text-dark: hsl(190,100%,10%);
+  --color-btn-primary-background: hsl(190,100%,83%);
+  --color-btn-primary-hover:hsl(190,100%,73%);
+  --color-btn-border:black;
+  --color-btn-danger-background: hsl(var(--color-danger-hue),100%,83%);
+  --color-btn-danger-text: black;
+    --color-btn-danger-text-dark: black;
+  --color-btn-danger-hover:hsl(356,87%,37%);
+}
+.my-btn {
+  border: 1px solid var(--color-btn-border);
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  font-size: 1.2rem;
+  font-family: 'Montserrat Alternates',sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+.my-btn-row{
+  display: flex;
+  align-items: flex-start;
+}
+.my-btn-row > * {
+  margin-left: 1rem;
+}
+.my-btn-row > *:first-child {
+  margin-left: 0;
+}
+
+.my-btn-primary{
+  color: var(--color-btn-primary-text);
+  background-color: var(--color-btn-primary-background);
+}
+.my-btn-primary:hover{
+  color: var(--color-btn-primary-text-dark);
+  background-color: var(--color-btn-primary-hover);
+}
+
+.my-btn-danger{
+  color: var(--color-btn-danger-text);
+  background-color: var(--color-btn-danger-background);
+}
+.my-btn-danger:hover{
+  color: var(--color-btn-danger-text-dark);
+  background-color: var(--color-btn-danger-hover);
+}
+.my-button{
+  margin-top 3px;
+  margin-bottom: 18px;
+}
+@media screen and (min-width:570px){
+  .my-btn-row{
+    margin-left:25px;
+  }
+}
+@media screen and (max-width: 600px){
+  .my-btn-row{
+    margin-left: 15px;
+  }
+}

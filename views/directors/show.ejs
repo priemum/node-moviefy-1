@@ -1,0 +1,9 @@
+<h2 class="page-header-color"><%= director.name %></h2>
+<div class="my-btn-row">
+  <a class="btn btn-outline-primary" href="/directors/<%= director.id %>/edit">Edit</a>
+  <%- include("../partials/deleteForm", { url: `/directors/${director.id}` }) %>
+</div>
+<% if (moviesByDirector.length > 0) { %>
+<h2 class="page-header-color">Movies by Director </h2>
+<%- include('../partials/movieGrid', { movies: moviesByDirector, large:true }) %>
+<% } %>
