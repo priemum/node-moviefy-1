@@ -5,7 +5,7 @@
 
 * Demo of the website can be found here: https://node-moviefy.herokuapp.com/
 
-**Local setup**
+**Local setup:**
 
 - Clone this repository.
 
