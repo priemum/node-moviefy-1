@@ -2,7 +2,6 @@ Moviefy
 
 Moviefy is a website for movies and directors. Here you can find your favorite directors and their most ranked movies.
 
-Node js website made with 💚 from invalidmarkup369
 
 Demo of the website can be found here: https://node-moviefy.herokuapp.com/
 
