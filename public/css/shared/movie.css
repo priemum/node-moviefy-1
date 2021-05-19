@@ -66,40 +66,214 @@
 }
 
 @media screen and (min-width:570px) {
-.fixed-look{
-  margin-left: 30px;
-}
-.top-fix{
+  .fixed-look {
+    margin-left: 30px;
+  }
+
+  .top-fix {
     margin-top: 12px;
   }
 }
-
 
 @media screen and (max-width:570px) {
   .movie-details-label {
     margin-top: 10px;
   }
-  .page-header-color{
-    text-align: center;
-  }
-  .movie-cover-show{
-    margin-left: 50%;
-  }
-  .btn-fixed{
-    margin-left: 50% ;
-  }
-  .my-btn{
-    margin-left: 15px;
-  }
-  .firstPage-movie-cover{
-    margin-left:25%;
-    margin-top: 5px;
-  }
-  .center-first-page-header{
-    margin-left: 15%;
-  }
-  .center-mobile{
+
+  .page-header-color {
     text-align: center;
   }
 
+  .movie-cover-show {
+    margin-left: 50%;
+  }
+
+  .btn-fixed {
+    margin-left: 50%;
+  }
+
+  .my-btn {
+    margin-left: 15px;
+  }
+
+  .firstPage-movie-cover {
+    margin-left: 25%;
+    margin-top: 5px;
+  }
+
+  .center-first-page-header {
+    margin-left: 15%;
+  }
+
+  .center-mobile {
+    text-align: center;
+  }
+}
+
+/* Nexus 6P Mobile S 413px max */
+@media screen and (max-width:413px) {
+  .page-header-color {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .movie-cover-show {
+    margin-left: 20%;
+  }
+
+  .btn-fixed {
+    margin-left: 20%;
+  }
+
+  .my-btn {
+    margin-left: 15px;
+  }
+
+  .firstPage-movie-cover {
+    margin-left: 25%;
+    margin-top: 5px;
+  }
+
+  .center-first-page-header {
+    margin-left: 15%;
+  }
+
+  .center-mobile {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* Mobile S 360px max */
+@media screen and (max-width:360px) {
+  .page-header-color {
+    text-align: center;
+  }
+
+  .movie-cover-show {
+    margin-left: 20%;
+  }
+
+  .btn-fixed {
+    margin-left: 20%;
+  }
+
+  .my-btn {
+    margin-left: 15px;
+  }
+
+  .firstPage-movie-cover {
+    margin-left: 25%;
+    margin-top: 5px;
+  }
+
+  .center-first-page-header {
+    margin-left: 15%;
+  }
+
+  .center-mobile {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* Mobile S 411px min */
+@media screen and (min-width:411px) {
+  .page-header-color {
+    text-align: center;
+  }
+
+  .movie-cover-show {
+    margin-left: 30%;
+  }
+
+  .btn-fixed {
+    margin-left: 30%;
+  }
+
+  .my-btn {
+    margin-left: 15px;
+  }
+
+  .firstPage-movie-cover {
+    margin-left: 25%;
+    margin-top: 5px;
+  }
+
+  .center-first-page-header {
+    margin-left: 15%;
+  }
+
+  .center-mobile {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* Mobile S 320px max */
+@media screen and (max-width:320px) {
+  .page-header-color {
+    text-align: center;
+  }
+
+  .movie-cover-show {
+    margin-left: 10%;
+  }
+
+  .btn-fixed {
+    margin-left: 10%;
+  }
+
+  .my-btn {
+    margin-left: 15px;
+  }
+
+  .firstPage-movie-cover {
+    margin-left: 25%;
+    margin-top: 5px;
+  }
+
+  .center-first-page-header {
+    margin-left: 15%;
+  }
+
+  .center-mobile {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (orientation:landscape) {
+  .page-header-color {
+    text-align: center;
+  }
+
+  .movie-cover-show {
+    margin-left: 85%;
+  }
+
+  .btn-fixed {
+    margin-left: 85%;
+  }
+
+  .my-btn {
+    margin-left: 15px;
+  }
+
+  .firstPage-movie-cover {
+    margin-left: 25%;
+    margin-top: 5px;
+  }
+
+  .center-first-page-header {
+    margin-left: 15%;
+  }
+
+  .center-mobile {
+    text-align: center;
+  }
+
+  .landscape {
+    margin-top: 10px;
+  }
 }

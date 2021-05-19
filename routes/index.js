@@ -6,7 +6,7 @@ const Movie = require("../dbModels/movie");
 router.get("/", async function(req,res){
   let movies = [];
   try{
-    movies = await Movie.find().sort({ addedAt:"desc"}).limit(10).exec()
+    movies = await Movie.find().sort({ addedAt:"desc"}).limit(15).exec()
   } catch{
     movies =[];
   }
