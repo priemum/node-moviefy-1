@@ -11,7 +11,7 @@
 
 **- cd into the cloned folder and run npm install or whatever else works for you.**
 
-**- Then simply run npm start runDev and the application will start or whatever else works for you, and add the runDev.**
+**- Then simply run npm run nodeMoviefy and the application will start or whatever else works for you, and add the runDev.**
 
 # Main technologies:
 
