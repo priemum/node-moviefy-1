@@ -4,42 +4,43 @@
   --movie-cover-aspect-ratio: 0.75;
 }
 
-.movie-cover{
+.movie-cover {
   width: var(--movie-cover-width);
   height: calc(var(--movie-cover-width) / var(--movie-cover-aspect-ratio));
 }
 
-.movie-cover-large{
+.movie-cover-large {
   --movie-cover-width: var(--movie-cover-width-large);
 }
 
-.movie-grid{
+.movie-grid {
   display: grid;
   justify-content: center;
   grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fill,var(--movie-cover-width));
+  grid-template-columns: repeat(auto-fill, var(--movie-cover-width));
 }
 
-.movie-grid-large{
-    grid-template-columns: repeat(auto-fill,var(--movie-cover-width-large));
+.movie-grid-large {
+  grid-template-columns: repeat(auto-fill, var(--movie-cover-width-large));
 }
 
-
-.my-movie{
-    margin-left: 15px;
+.my-movie {
+  margin-left: 15px;
 }
 
-.movie-details{
+.movie-details {
   display: flex;
 }
-.movie-details-label{
+
+.movie-details-label {
   font-size: 1.2rem;
   font-weight: 500;
   align-self: flex-start;
-  font-family: "Montserrat Alternates",sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   margin-left: 15px;
 }
-.movie-details-grid{
+
+.movie-details-grid {
   display: grid;
   align-content: flex-start;
   align-items: center;
@@ -47,26 +48,58 @@
   grid-template-columns: auto auto;
 }
 
-.movie-details-btn-grid{
+.movie-details-btn-grid {
   display: grid;
   justify-items: flex=start;
   align-items: flex-start;
   align-content: flex-start;
   grid-template-areas:
-  "edit delete"
-  "director director";
+    "edit delete"
+    "director director";
   grid-gap: .5rem;
   margin-top: .5rem;
 }
 
-.movie-details-director-btn{
+.movie-details-director-btn {
   grid-area: director;
   justify-self: stretch;
 }
 
-@media screen and (min-width:570px){
-  .movie-cover{
-    margin-left: 55px;
-
-
+@media screen and (min-width:570px) {
+.fixed-look{
+  margin-left: 30px;
+}
+.top-fix{
+    margin-top: 12px;
   }
+}
+
+
+@media screen and (max-width:570px) {
+  .movie-details-label {
+    margin-top: 10px;
+  }
+  .page-header-color{
+    text-align: center;
+  }
+  .movie-cover-show{
+    margin-left: 50%;
+  }
+  .btn-fixed{
+    margin-left: 50% ;
+  }
+  .my-btn{
+    margin-left: 15px;
+  }
+  .firstPage-movie-cover{
+    margin-left:25%;
+    margin-top: 5px;
+  }
+  .center-first-page-header{
+    margin-left: 15%;
+  }
+  .center-mobile{
+    text-align: center;
+  }
+
+}

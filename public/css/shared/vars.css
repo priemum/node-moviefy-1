@@ -1,8 +1,9 @@
-:root{
-  --color-danger-hue-offset:195;
+:root {
+  --color-danger-hue-offset: 195;
   --color-danger-hue: calc(190 - var(--color-danger-hue-offset));
-  --color-background-light: hsl(253,33%,36%);
-  --color-background-middle: hsl(240,81%,39%);
-  --color-background-dark: hsl(231,87%,12%);
-  --color-text-light: hsl(190,100%,87%);
+  --color-background-light: hsl(253, 33%, 36%);
+  --color-background-middle: hsl(240, 81%, 39%);
+  --color-background-dark: hsl(231, 87%, 12%);
+  --color-text-light: hsl(190, 100%, 87%);
+  --color-background-footer: hsl(271,100%,39%);
 }

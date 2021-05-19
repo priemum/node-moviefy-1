@@ -1,0 +1,45 @@
+.footer-background-color{
+  background: linear-gradient(to left, var(--color-background-light), var(--color-background-middle), var(--color-background-dark));
+}
+.footer-color{
+  color:var(--color-text-light);
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+}
+.bg-color{
+  color: var(--color-text-light);
+}
+.change-color:hover{
+  color:red;
+}
+.social-icons{
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.social-icons a:hover{
+  text-decoration: none;
+}
+
+.coming-soon a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.quick-links a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.copyright a:hover{
+  color: red;
+  text-decoration: none;
+}
+.contact-info i:hover{
+  color:blue;
+}
+.mailto a{
+  color: var(--color-text-light);
+}
+.mailto a:hover{
+  text-decoration: none;
+  color: blue;
+}

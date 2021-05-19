@@ -1,35 +1,49 @@
-<h2 class="page-header-color"><%= movie.title %></h2>
-<div class="movie-details">
-  <div>
-    <img class="movie-cover" src="<%= movie.coverImagePath %>">
-    <div class="movie-details-btn-grid">
-      <a class="btn btn-outline-primary" href="/movies/<%= movie.id %>/edit">Edit</a>
-      <%- include("../partials/deleteForm", { url: `/movies/${movie.id}`}) %>
-      <a class="btn btn-outline-primary movie-details-director-btn" href="/directors/<%= movie.director.id %>">View Director</a>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="movie-details-color movie-details-label">Director:</div>
-        <div class="my-movie movie-details-color"> <%= movie.director.name %> </div>
-      </div>
-
-      <div class="col-md-12">
-        <div class="movie-details-color movie-details-label">Release Date:</div>
-        <div class="my-movie movie-details-color"> <%= movie.releaseDate.toDateString() %> </div>
+<h2 class="page-header-color fixed-look"><%= movie.title %></h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-xs-6">
+      <div class="movie-details">
+        <div>
+          <img class="movie-cover movie-cover-show fixed-look" src="<%= movie.coverImagePath %>">
+          <div class="movie-details-btn-grid fixed-look btn-fixed">
+            <a class="btn btn-outline-primary my-btn" href="/movies/<%= movie.id %>/edit">Edit</a>
+            <%- include("../partials/deleteForm", { url: `/movies/${movie.id}`}) %>
+            <a class="btn btn-outline-primary movie-details-director-btn my-btn" href="/directors/<%= movie.director.id %>">View Director</a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-12">
-        <div class="movie-details-color movie-details-label">Rating:</div>
-        <div class="my-movie movie-details-color"> <%= movie.rating %> </div>
+
+
+    <div class="col-md-6 col-xs-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 center-mobile">
+            <div class="movie-details-color movie-details-label">Director:</div>
+            <div class="my-movie movie-details-color"> <%= movie.director.name %> </div>
+          </div>
+
+          <div class="col-md-6 center-mobile">
+            <div class="movie-details-color movie-details-label">Release Date:</div>
+            <div class="my-movie movie-details-color"> <%= movie.releaseDate.toDateString() %> </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 center-mobile">
+            <div class="movie-details-color movie-details-label top-fix">Description:</div>
+            <div class="my-movie movie-details-color"> <%= movie.description %> </div>
+          </div>
+          <div class="col-md-6 center-mobile">
+            <div class="movie-details-color movie-details-label top-fix">Rating:</div>
+            <div class="my-movie movie-details-color"> <%= movie.rating %> </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-12">
-        <div class="movie-details-color movie-details-label">Description:</div>
-        <div class="my-movie movie-details-color"> <%= movie.description %> </div>
-      </div>
+
     </div>
+
   </div>
+
 </div>

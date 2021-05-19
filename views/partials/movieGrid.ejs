@@ -3,7 +3,7 @@
 <div class="movie-grid <%= movieGridClass %>">
   <% movies.forEach(movie => { %>
   <a href="/movies/<%= movie.id %>">
-    <img class="movie-cover" <%= movieCoverClass %> alt="Movie cover" src="<%= movie.coverImagePath %>">
+    <img class="movie-cover firstPage-movie-cover" <%= movieCoverClass %> alt="Movie cover" src="<%= movie.coverImagePath %>">
 </a>
   <% }) %>
 </div>
