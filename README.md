@@ -15,11 +15,11 @@
 
 # Main technologies:
 
-**Node js v.14.17.0,**
+**Node js v14.17.0,**
 
 **Bootstrap v4.6.0**
 
-#Node "dependencies":** {
+#Node "dependencies": {
 
     "ejs",
 	
