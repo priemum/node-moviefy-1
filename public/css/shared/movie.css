@@ -7,6 +7,10 @@
 .movie-cover {
   width: var(--movie-cover-width);
   height: calc(var(--movie-cover-width) / var(--movie-cover-aspect-ratio));
+
+}
+.movie-cover:hover{
+  transform: scale(1.1);
 }
 
 .movie-cover-large {
