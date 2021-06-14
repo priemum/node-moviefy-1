@@ -36,7 +36,10 @@ body {
   color: var(--color-text-light);
   font-family: "Montserrat Alternates", sans-serif;
 }
-
+.padd-15{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .center-first-page-header {
   font-size: 1.9rem;
   font-weight: 500;

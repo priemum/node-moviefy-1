@@ -9,8 +9,9 @@
   height: calc(var(--movie-cover-width) / var(--movie-cover-aspect-ratio));
 
 }
-.movie-cover:hover{
+.movie-transform:hover{
   transform: scale(1.1);
+  border-radius: 15px;
 }
 
 .movie-cover-large {

@@ -4,6 +4,6 @@
   <%- include("../partials/deleteForm", { url: `/directors/${director.id}` }) %>
 </div>
 <% if (moviesByDirector.length > 0) { %>
-<h2 class="page-header-color">Movies by Director </h2>
+<h2 class="page-header-color padd-15">Movies by Director </h2>
 <%- include('../partials/movieGrid', { movies: moviesByDirector, large:true }) %>
 <% } %>
