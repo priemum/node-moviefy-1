@@ -2,7 +2,7 @@
 <form class="row g-3" action="/movies/<%= movie.id %>?_method=PUT" method="POST">
     <%- include("_form_fields")%>
     <div class="my-form-row my-form-row-end my-btn-row">
-      <a class="btn btn-outline-danger" href="/movies">Cancel</a>
+      <a class="btn btn-outline-danger" href="/movies/<%= movie.id %>">Cancel</a>
       <button class="btn btn-outline-primary" type="submit">Update</button>
     </div>
 
