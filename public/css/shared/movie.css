@@ -21,7 +21,7 @@
 .movie-grid {
   display: grid;
   justify-content: center;
-  grid-gap: 2rem;
+  grid-gap: 3rem;
   grid-template-columns: repeat(auto-fill, var(--movie-cover-width));
 }
 
@@ -135,12 +135,13 @@
   }
 
   .firstPage-movie-cover {
-    margin-left: 25%;
+    margin-left: 19%;
     margin-top: 5px;
   }
 
   .center-first-page-header {
-    margin-left: 15%;
+    margin-left: 18%;
+    font-size: 1.2rem!important;
   }
 
   .center-mobile {
@@ -168,12 +169,13 @@
   }
 
   .firstPage-movie-cover {
-    margin-left: 25%;
+    margin-left: 19%;
     margin-top: 5px;
   }
 
   .center-first-page-header {
-    margin-left: 15%;
+    margin-left: 11%;
+    font-size: 1.4rem!important;
   }
 
   .center-mobile {
@@ -201,12 +203,13 @@
   }
 
   .firstPage-movie-cover {
-    margin-left: 25%;
+    margin-left: 19%;
     margin-top: 5px;
   }
 
   .center-first-page-header {
-    margin-left: 15%;
+    margin-left: 11%;
+    font-size: 1.6rem!important;
   }
 
   .center-mobile {
@@ -234,12 +237,13 @@
   }
 
   .firstPage-movie-cover {
-    margin-left: 25%;
+    margin-left: 19%;
     margin-top: 5px;
   }
 
   .center-first-page-header {
-    margin-left: 15%;
+    margin-left: 9%;
+    font-size: 1.2rem!important;
   }
 
   .center-mobile {

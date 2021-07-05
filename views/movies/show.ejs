@@ -26,7 +26,7 @@
 
           <div class="col-md-6 center-mobile landscape">
             <div class="movie-details-color movie-details-label">Release Date:</div>
-            <div class="my-movie movie-details-color"> <%= movie.releaseDate.toDateString() %> </div>
+            <div class="my-movie movie-details-color"> <%= movie.releaseDate.toDateString().split(' ').slice(1).join(' ') %> </div>
           </div>
         </div>
 

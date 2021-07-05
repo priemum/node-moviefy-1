@@ -5,6 +5,12 @@
   color:var(--color-text-light);
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 400;
+
+}
+.decoration369{
+  text-decoration: underline;
+  font-style: italic;
+  color: #c62d2d;
 }
 .bg-color{
   color: var(--color-text-light);
@@ -12,6 +18,17 @@
 .change-color:hover{
   color:red;
 }
+.contact-me{
+  margin: auto;
+}
+.contact-me h6{
+  margin-left: 15px;
+}
+.toLeft{
+  margin: auto;
+  margin-left: -50px;
+}
+
 .social-icons{
   font-family: "Montserrat Alternates", sans-serif;
 }
@@ -42,4 +59,15 @@
 .mailto a:hover{
   text-decoration: none;
   color: blue;
+}
+
+/* Nexus 6P Mobile S 413px max */
+@media screen and (max-width:413px) {
+  .toLeft{
+    margin-left: -15px;
+  }
+  .contact-me h6{
+    margin-left: -25px;
+  }
+
 }
