@@ -13,7 +13,7 @@ const movieSchema = new mongoose.Schema({
     required: true
   },
   rating:{
-    type: Number,
+    type: mongoose.Decimal128,
     required: true
   },
   addedAt:{

@@ -17,6 +17,17 @@
   margin-top 3px;
   margin-bottom: 18px;
 }
+.btn-search{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+.btn-search>*:first-child {
+  margin-left: 518px;
+  margin-bottom: 25px;
+  padding: 15px 21px;
+}
 
 @media screen and (min-width:570px) {
   .my-btn-row {
@@ -27,5 +38,19 @@
 @media screen and (max-width: 600px) {
   .my-btn-row {
     margin-left: 15px;
+  }
+}
+
+@media  screen and (max-width: 415px) {
+  .btn-search>*:first-child {
+    margin-left: 133px;
+    margin-bottom: 5px;
+  }
+}
+
+@media  screen and (max-width: 376px) {
+  .btn-search>*:first-child {
+    margin-left: 113px;
+    margin-bottom: 5px;
   }
 }
