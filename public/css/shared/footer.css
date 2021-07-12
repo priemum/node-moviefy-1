@@ -8,8 +8,9 @@
 
 }
 .decoration369{
-  text-decoration: underline;
   font-style: italic;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
   color: #c62d2d;
 }
 .bg-color{
