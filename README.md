@@ -3,8 +3,6 @@
 ***Moviefy is a website for storing movie directors and their movies.Here you can find your favorite movie directors and their most rated movies.*** 
 
 
-# Demo of the website can be found here: https://node-moviefy.herokuapp.com/
-
 # Local setup:
 
 **- Clone this repository.**
@@ -13,7 +11,13 @@
 
 **- Then simply run npm run nodeMoviefy and the application will start or whatever else works for you, and add the runDev.**
 
+# Reflection
 
+  - This wa as project for college
+  - I set out to build a web application that stores movies and movies directors
+  - This project was challenging because I made it from scrath and it was a good learning experience because I learning about REST and his PUT,POST,GET and DELETE
+  - Obstacles that I had was the responsive design
+  - Demo of the website can be found here: https://node-moviefy.herokuapp.com/
 
 # Main technologies:
 
