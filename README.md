@@ -2,7 +2,6 @@
 
 ***Moviefy is a website for storing movie directors and their movies.Here you can find your favorite movie directors and their most rated movies.*** 
 
-
 # Local setup:
 
 **- Clone this repository.**
@@ -10,6 +9,10 @@
 **- cd into the cloned folder and run npm install or whatever else works for you.**
 
 **- Then simply run npm run nodeMoviefy and the application will start or whatever else works for you, and add the runDev.**
+
+# Screenshot from the site:
+
+![node-moviefy](node-moviefy.gif)
 
 # Reflection
 
