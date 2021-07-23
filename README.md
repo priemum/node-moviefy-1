@@ -16,7 +16,7 @@
 
 # Reflection
 
-  - This wa as project for college
+  - This was a project for college
   - I set out to build a web application that stores movies and movies directors
   - This project was challenging because I made it from scrath and it was a good learning experience because I learning about REST and his PUT,POST,GET and DELETE
   - Obstacles that I had was the responsive design
