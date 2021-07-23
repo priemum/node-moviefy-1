@@ -13,13 +13,15 @@
 
 **- Then simply run npm run nodeMoviefy and the application will start or whatever else works for you, and add the runDev.**
 
+
+
 # Main technologies:
 
 **Node js v14.17.0,**
 
 **Bootstrap v4.6.0**
 
-#Node "dependencies": {
+## Node "dependencies": {
 
     "ejs",
 	
